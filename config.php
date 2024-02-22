@@ -4,7 +4,7 @@
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', ''); //Password MySQL kalian
-define('DB_NAME', 'contact'); //Nama Database yang ingin kamu buat
+define('DB_NAME', ''); //Nama Database yang ingin kamu buat
 
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
